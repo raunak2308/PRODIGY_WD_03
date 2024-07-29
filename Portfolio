@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h1>Welcome to My Portfolio</h1>
+        <img src="your-photo.jpg" alt="Your Photo" class="profile-photo">
+        <p>Hi, I'm [Your Name], a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I have a background in [Your Background] and have been working in the web development field for [Number] years. I specialize in [Your Specializations].</p>
+        <p>Education: [Your Education]</p>
+        <p>Professional Experience: [Your Professional Experience]</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+            <a href="link-to-project-1">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+            <a href="link-to-project-2">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to email me at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+CSS
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.home, .about, .projects, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.home {
+    background-color: #f9f9f9;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.projects .project {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects .project h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+JS
+// script.js
+
+// Placeholder for potential future JavaScript functionality
